@@ -1,5 +1,2 @@
 # dotfiles
-# dotfiles
-# dotfiles
-# dotfiles
-# dotfiles
+My dotfiles customize from Jakoolit Arch-Hyprland
