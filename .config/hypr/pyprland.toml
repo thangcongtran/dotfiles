@@ -1,0 +1,16 @@
+[pyprland]
+
+plugins = [
+  "scratchpads",
+  "magnify",
+]
+
+[scratchpads.term]
+animation = "fromTop"
+command = "foot --app-id foot-dropterm"
+class = "foot-dropterm"
+size = "50% 50%"
+unfocus = "hide"
+position = "25% 30%"
+margin = 45
+lazy = true

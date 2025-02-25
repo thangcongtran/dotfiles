@@ -1,0 +1,6 @@
+2025/02/25-10:35:33.443 4b1 Reusing MANIFEST /home/hasht/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/02/25-10:35:33.443 4b1 Recovering log #3
+2025/02/25-10:35:33.449 4b1 Reusing old log /home/hasht/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000003.log 
+2025/02/25-10:35:41.326 4b1 Level-0 table #5: started
+2025/02/25-10:35:41.347 4b1 Level-0 table #5: 1241238 bytes OK
+2025/02/25-10:35:41.352 4b1 Delete type=0 #3

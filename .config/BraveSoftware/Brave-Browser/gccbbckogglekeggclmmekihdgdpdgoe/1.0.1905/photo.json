@@ -1,0 +1,242 @@
+{
+  "schemaVersion": 1,
+  "campaigns": [
+    {
+      "campaignId": "da36aba2-73ea-42ff-9432-32496126c7c5",
+      "logo": {
+        "imageUrl": "bb21e1a5-2d3c-4fd9-a313-e63ad2fc9a15.png",
+        "destinationUrl": "https://www.golfn.com/sweepstakes/golfadventureofalifetime?utm_source=brave&utm_medium=web&utm_content=hero",
+        "alt": "GolfN - Win an epic golf adventure to play the world's greatest courses in Northern Ireland",
+        "companyName": "GolfN"
+      },
+      "wallpapers": [
+        {
+          "imageUrl": "6d972da1-0b51-467a-86ea-d28e58c564c7.jpg",
+          "creativeInstanceId": "5bcd8fe5-c528-4ffd-ae58-603f84c3f0c7",
+          "focalPoint": {
+            "x": 1280,
+            "y": 720
+          }
+        },
+        {
+          "imageUrl": "fe9cb3be-5953-417e-8bbe-75d511a7488c.jpg",
+          "creativeInstanceId": "369f9dc9-e222-418d-9c2e-933173f3de60",
+          "focalPoint": {
+            "x": 1280,
+            "y": 720
+          }
+        },
+        {
+          "imageUrl": "a846ade2-c5e8-431f-97b1-4d370388e11f.jpg",
+          "creativeInstanceId": "df1fb999-917f-4942-afef-733aa198b321",
+          "focalPoint": {
+            "x": 1280,
+            "y": 720
+          }
+        },
+        {
+          "imageUrl": "54194009-a09e-4a6a-a9e0-173838819658.jpg",
+          "creativeInstanceId": "83518022-cda6-43d6-9410-d6f08c011734",
+          "focalPoint": {
+            "x": 1280,
+            "y": 720
+          }
+        }
+      ]
+    }
+  ],
+  "campaigns2": [
+    {
+      "campaignId": "a782280d-d6b6-4d62-bf86-557878f00746",
+      "logo": {
+        "imageUrl": "12b36ec0-bf85-447f-b13a-2510fe8cdfda.png",
+        "destinationUrl": "https://blocksurvey.io/brave-survey-OUtGT7XhSZOG6eci2CC.8Q?language=en_US&region=US&operating_system=Desktop&cohort_age=30",
+        "alt": "Survey | Tell us what you think about Brave | Give feedback",
+        "companyName": "Brave"
+      },
+      "wallpapers": [
+        {
+          "imageUrl": "b9175b11-120e-43dd-ad47-52dfd4b45efa.jpg",
+          "creativeInstanceId": "fed66fff-ee3a-4c80-9d1a-e3e47c97b066",
+          "focalPoint": {
+            "x": 1280,
+            "y": 720
+          },
+          "conditionMatchers": [
+            {
+              "prefPath": "[virtual]:operating_system|locale|region",
+              "condition": "US"
+            },
+            {
+              "prefPath": "[virtual]:operating_system|locale|language",
+              "condition": "en"
+            },
+            {
+              "prefPath": "[virtual]:operating_system|name",
+              "condition": "^(Windows|Mac OS X|Linux)$"
+            },
+            {
+              "prefPath": "[virtual]:browser|build_channel",
+              "condition": "stable"
+            },
+            {
+              "prefPath": "uninstall_metrics.installation_date2",
+              "condition": "[T≥]:30"
+            },
+            {
+              "prefPath": "brave.brave_ads.p3a.ntp_event_count_constellation|fed66fff-ee3a-4c80-9d1a-e3e47c97b066|views",
+              "condition": "[R≤]:5"
+            },
+            {
+              "prefPath": "brave.brave_ads.p3a.ntp_event_count_constellation|fed66fff-ee3a-4c80-9d1a-e3e47c97b066|clicks",
+              "condition": "[R≤]:2"
+            },
+            {
+              "prefPath": "uninstall_metrics.installation_date2",
+              "condition": "[T≤]:180"
+            }
+          ]
+        },
+        {
+          "imageUrl": "b9175b11-120e-43dd-ad47-52dfd4b45efa.jpg",
+          "creativeInstanceId": "37bfdedc-dec4-41ba-a2a6-589c46cfe6ef",
+          "focalPoint": {
+            "x": 1280,
+            "y": 720
+          },
+          "logo": {
+            "imageUrl": "12b36ec0-bf85-447f-b13a-2510fe8cdfda.png",
+            "destinationUrl": "https://blocksurvey.io/brave-survey-OUtGT7XhSZOG6eci2CC.8Q?language=en_US&region=US&operating_system=Desktop&cohort_age=1",
+            "alt": "Survey | Tell us what you think about Brave | Give feedback",
+            "companyName": "Brave"
+          },
+          "conditionMatchers": [
+            {
+              "prefPath": "[virtual]:operating_system|locale|region",
+              "condition": "US"
+            },
+            {
+              "prefPath": "[virtual]:operating_system|locale|language",
+              "condition": "en"
+            },
+            {
+              "prefPath": "[virtual]:operating_system|name",
+              "condition": "^(Windows|Mac OS X|Linux)$"
+            },
+            {
+              "prefPath": "[virtual]:browser|build_channel",
+              "condition": "stable"
+            },
+            {
+              "prefPath": "uninstall_metrics.installation_date2",
+              "condition": "[T≥]:1"
+            },
+            {
+              "prefPath": "brave.brave_ads.p3a.ntp_event_count_constellation|37bfdedc-dec4-41ba-a2a6-589c46cfe6ef|views",
+              "condition": "[R≤]:5"
+            },
+            {
+              "prefPath": "brave.brave_ads.p3a.ntp_event_count_constellation|37bfdedc-dec4-41ba-a2a6-589c46cfe6ef|clicks",
+              "condition": "[R≤]:2"
+            },
+            {
+              "prefPath": "uninstall_metrics.installation_date2",
+              "condition": "[T≤]:2"
+            }
+          ]
+        },
+        {
+          "imageUrl": "b9175b11-120e-43dd-ad47-52dfd4b45efa.jpg",
+          "creativeInstanceId": "4215936a-ffb8-4826-b650-656e95b25a28",
+          "focalPoint": {
+            "x": 1280,
+            "y": 720
+          },
+          "logo": {
+            "imageUrl": "12b36ec0-bf85-447f-b13a-2510fe8cdfda.png",
+            "destinationUrl": "https://blocksurvey.io/brave-survey-OUtGT7XhSZOG6eci2CC.8Q?language=en_US&region=US&operating_system=Desktop&cohort_age=7",
+            "alt": "Survey | Tell us what you think about Brave | Give feedback",
+            "companyName": "Brave"
+          },
+          "conditionMatchers": [
+            {
+              "prefPath": "[virtual]:operating_system|locale|region",
+              "condition": "US"
+            },
+            {
+              "prefPath": "[virtual]:operating_system|locale|language",
+              "condition": "en"
+            },
+            {
+              "prefPath": "[virtual]:operating_system|name",
+              "condition": "^(Windows|Mac OS X|Linux)$"
+            },
+            {
+              "prefPath": "[virtual]:browser|build_channel",
+              "condition": "stable"
+            },
+            {
+              "prefPath": "uninstall_metrics.installation_date2",
+              "condition": "[T≥]:7"
+            },
+            {
+              "prefPath": "brave.brave_ads.p3a.ntp_event_count_constellation|4215936a-ffb8-4826-b650-656e95b25a28|views",
+              "condition": "[R≤]:5"
+            },
+            {
+              "prefPath": "brave.brave_ads.p3a.ntp_event_count_constellation|4215936a-ffb8-4826-b650-656e95b25a28|clicks",
+              "condition": "[R≤]:2"
+            },
+            {
+              "prefPath": "uninstall_metrics.installation_date2",
+              "condition": "[T≤]:8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "campaignId": "da36aba2-73ea-42ff-9432-32496126c7c5",
+      "logo": {
+        "imageUrl": "bb21e1a5-2d3c-4fd9-a313-e63ad2fc9a15.png",
+        "destinationUrl": "https://www.golfn.com/sweepstakes/golfadventureofalifetime?utm_source=brave&utm_medium=web&utm_content=hero",
+        "alt": "GolfN - Win an epic golf adventure to play the world's greatest courses in Northern Ireland",
+        "companyName": "GolfN"
+      },
+      "wallpapers": [
+        {
+          "imageUrl": "6d972da1-0b51-467a-86ea-d28e58c564c7.jpg",
+          "creativeInstanceId": "5bcd8fe5-c528-4ffd-ae58-603f84c3f0c7",
+          "focalPoint": {
+            "x": 1280,
+            "y": 720
+          }
+        },
+        {
+          "imageUrl": "fe9cb3be-5953-417e-8bbe-75d511a7488c.jpg",
+          "creativeInstanceId": "369f9dc9-e222-418d-9c2e-933173f3de60",
+          "focalPoint": {
+            "x": 1280,
+            "y": 720
+          }
+        },
+        {
+          "imageUrl": "a846ade2-c5e8-431f-97b1-4d370388e11f.jpg",
+          "creativeInstanceId": "df1fb999-917f-4942-afef-733aa198b321",
+          "focalPoint": {
+            "x": 1280,
+            "y": 720
+          }
+        },
+        {
+          "imageUrl": "54194009-a09e-4a6a-a9e0-173838819658.jpg",
+          "creativeInstanceId": "83518022-cda6-43d6-9410-d6f08c011734",
+          "focalPoint": {
+            "x": 1280,
+            "y": 720
+          }
+        }
+      ]
+    }
+  ]
+}
