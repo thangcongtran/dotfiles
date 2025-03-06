@@ -1,9 +1,9 @@
-local lint = require("lint")
+local lint = require "lint"
 
 lint.linters_by_ft = {
     lua = { "luacheck" },
-    -- haskell = { "hlint" },
-    -- python = { "flake8" },
+    haskell = { "hlint" },
+    python = { "flake8" },
 }
 
 lint.linters.luacheck.args = {
@@ -11,6 +11,10 @@ lint.linters.luacheck.args = {
     "--globals",
     "love",
     "vim",
+    "--formartter",
+    "plain",
+    "--codes",
+    "--ranges",
 }
 
 vim.api.nvim_create_autocmd({ "BufEnter", "BufWritePost", "InsertLeave" }, {

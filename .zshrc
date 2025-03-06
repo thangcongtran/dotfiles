@@ -49,23 +49,20 @@ alias cd..='cd ..'
 alias cd...='cd ../../'
 alias gc='git clone '
 alias ga='git add .'
-alias gcm='git commit -m '
+alias gcm='git commit -m'
 alias gp='git push'
 alias gs='git status'
 alias ll='ls -Alh'
-alias ls='lsd --group-dirs first'
+alias ls='lsd --group-dirs first --icon never'
 #alias cat='bat'
 alias gcc='g++ -o o'
 alias py='python3'
-alias pycharm='/home/hasht/pycharm-community-2024.3.2/bin/pycharm.sh'
-alias kali='distrobox-enter kali'
-alias Kali='distrobox-enter --root Kali'
-alias env2='source ~/.venvs/hashtenv2/bin/activate'
-alias env3='source ~/.venvs/hashtenv3/bin/activate'
+#alias pycharm='/home/hasht/pycharm-community-2024.3.2/bin/pycharm.sh'
+#alias kali='distrobox-enter kali'
+#alias Kali='distrobox-enter --root Kali'
+alias env3='source ~/.venvs/hasht/bin/activate'
 alias mkdir='mkdir -p'
-alias linkfinder='python /home/hasht/Kali/Tools/LinkFinder/linkfinder.py'
-unalias gau
-unalias gf
+
 
 # Set-up FZF key bindings (CTRL R for fuzzy history finder)
 source <(fzf --zsh)
@@ -93,3 +90,31 @@ export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
 # Created by `pipx` on 2025-02-03 11:40:30
 export PATH="$PATH:/home/hasht/.local/bin"
 
+#env3
+export LANG=en_US.UTF-8
+export LC_ALL=en_US.UTF-8
+export PATH="/Applications/Sublime Text.app/Contents/SharedSupport/bin:$PATH"
+
+
+
+[ -f "/home/hasht/.ghcup/env" ] && . "/home/hasht/.ghcup/env" # ghcup-env
+#source .virtualenvs/jupynium/bin/activate
+env3
+
+
+# >>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !!
+__conda_setup="$('/home/hasht/miniconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
+if [ $? -eq 0 ]; then
+    eval "$__conda_setup"
+else
+    if [ -f "/home/hasht/miniconda3/etc/profile.d/conda.sh" ]; then
+        . "/home/hasht/miniconda3/etc/profile.d/conda.sh"
+    else
+        export PATH="/home/hasht/miniconda3/bin:$PATH"
+    fi
+fi
+unset __conda_setup
+# <<< conda initialize <<<
+
+export PATH="$HOME/miniconda3/bin:$PATH"
